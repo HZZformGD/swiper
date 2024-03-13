@@ -7,12 +7,10 @@ const Utils = {
       try {
         object[key] = null;
       } catch (e) {
-        // no getter for object
       }
       try {
         delete object[key];
       } catch (e) {
-        // something got wrong
       }
     });
   },
